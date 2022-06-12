@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/wishlist"
+            android:title="Online Delivery" />
+        <item
+            android:id="@+id/nav_myOrders"
+            android:icon="@drawable/orders"
+            android:title="My Orders"/>
+        <item
+            android:id="@+id/nav_myRewards"
+            android:icon="@drawable/reward"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_myCart"
+            android:icon="@drawable/cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_myWishlist"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_myAccout"
+            android:icon="@drawable/my_account"
+            android:title="My Account" />
+
+
+
+    </group>
+    <item
+        android:id="@+id/nav_SignOut"
+        android:icon="@drawable/sign_out"
+        android:title="Sign Out" />
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/my_account"
+                android:title="Developer" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/my_account"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_rateme"
+                android:icon="@drawable/my_account"
+                android:title="Rate Me" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/my_account"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/my_account"
+                android:title="Help and Feedback" />
+
+        </menu>
+    </item>
+
+</menu>

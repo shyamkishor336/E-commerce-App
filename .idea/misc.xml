@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/drawable/slider_background.xml" value="0.26615384615384613" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/activity_add_address.xml" value="0.1621376811594203" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/activity_main.xml" value="0.2164855072463768" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/activity_main1.xml" value="0.2164855072463768" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/activity_register.xml" value="0.22644927536231885" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/fragment_my_account.xml" value="0.2164855072463768" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/fragment_signin.xml" value="0.22644927536231885" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/fragment_signup.xml" value="0.22644927536231885" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/fragment_update_info.xml" value="0.21105072463768115" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/profile_data_layout.xml" value="0.21105072463768115" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/layout/sign_in_dialog.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/menu/search_and_cart_icon.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Projects/Old Android/OnlineDelivery/app/src/main/res/menu/search_icon.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

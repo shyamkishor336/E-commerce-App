@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorBlack"
+        android:text="
+Indicator illustrations and clipart (50572) - Can Stock Photowww.canstockphoto.com › illustration › indicator
+Download Indicator images and photos. Over 50572 Indicator pictures to choose from, with no signup needed. Download in under 30 seconds.
+
+3d illustration of kpi ( key performance indicator ) button. EPS ...www.gograph.com › clipart › 3d-illustration-of-kpi-key-p...
+3d illustration of kpi ( key performance indicator ) button - gg67742663 GoGraph ... Featuring over 42000000 stock photos, vector clip art images, clipart pictures, ...
+
+Clipart - Red seatbelt indicator web button or icon. Stock ...www.gograph.com › illustration › red-seatbelt-indicator...
+Red seatbelt indicator web button or icon - gg54677956 GoGraph Stock Photography, Illustrations, and Clip Art allows you to quickly find the right graphic.
+
+3d illustration of KPI ( Key Performance Indicator ) button Clipartwww.fotosearch.com › CSP501
+3d illustration of KPI ( Key Performance Indicator ) button Clipart - Fotosearch Enhanced. k17447650 Fotosearch Stock Photography and Stock Footage helps ...
+
+3d man with KPI ( Key Performance Indicator ) button Clipart ...www.fotosearch.com › CSP847
+3d man with KPI ( Key Performance Indicator ) button Clipart - Fotosearch Enhanced." />
+
+</FrameLayout>

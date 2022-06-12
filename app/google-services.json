@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "144610892067",
+    "firebase_url": "https://my-liquor-delivery.firebaseio.com",
+    "project_id": "my-liquor-delivery",
+    "storage_bucket": "my-liquor-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144610892067:android:66dd95d6c73a201198d496",
+        "android_client_info": {
+          "package_name": "com.skinfotech.onlinedeliveryliquor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144610892067-8rrlanecqk5p74igh516guu6bin2eu3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhc9kv0rmL79BWuEapEXpShRkjTdpgqeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144610892067-8rrlanecqk5p74igh516guu6bin2eu3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

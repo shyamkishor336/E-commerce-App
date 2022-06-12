@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/dimen_16dp"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Payment Method"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <ImageButton
+        android:id="@+id/cash_on_deliverybtn"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorTransparent"
+        app:layout_constraintEnd_toStartOf="@+id/divider14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@mipmap/cash_on_delivery" />
+
+    <ImageButton
+        android:id="@+id/paytm_btn"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:background="@color/colorTransparent"
+        android:layout_marginStart="8dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider14"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@mipmap/paytm" />
+
+    <TextView
+        android:id="@+id/cod_btn_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Cash On Delivery"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cash_on_deliverybtn"
+        app:layout_constraintStart_toStartOf="@+id/cash_on_deliverybtn"
+        app:layout_constraintTop_toBottomOf="@+id/cash_on_deliverybtn" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="PayTM"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/paytm_btn"
+        app:layout_constraintStart_toStartOf="@+id/paytm_btn"
+        app:layout_constraintTop_toBottomOf="@+id/paytm_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
